@@ -17,6 +17,9 @@ body {
 	--color-white: #ffffff;
 	--color-dairy: #fcfcfc;
 }
+:focus {
+    --color: #404bbf
+}
 .logo {
     /* Logo */
     /* Auto layout */
