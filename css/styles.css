@@ -346,3 +346,90 @@ body {
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
 }
+.img-contacts-tom {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 32px;
+        gap: 32px;
+        position: absolute;
+        width: 264px;
+        height: 380px;
+        left: 444px;
+        top: 1780px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+}
+.img-contacts-camila {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 32px;
+        gap: 32px;
+        position: absolute;
+        width: 264px;
+        height: 380px;
+        left: 732px;
+        top: 1780px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+}
+.img-contacts-daniel {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 32px;
+        gap: 32px;
+        position: absolute;
+        width: 264px;
+        height: 380px;
+        left: 1020px;
+        top: 1780px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+}
+.footer {
+    position: absolute;
+        width: 1440px;
+        height: 312px;
+        left: 0px;
+        top: 2280px;
+}
+.logo-footer {
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        position: absolute;
+        width: 115px;
+        height: 24px;
+        left: 156px;
+        top: 2380px;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+}
+.footer-text {
+    position: absolute;
+        width: 264px;
+        height: 72px;
+        left: 156px;
+        top: 2420px;
+        /* Body */
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+        letter-spacing: 0.02em;
+        /* CLOUD */
+        color: #F4F4FD;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+}
