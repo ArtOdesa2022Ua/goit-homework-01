@@ -120,6 +120,7 @@ body {
     /* SLATE */
     color: #434455;
     list-style-type: none;
+    text-decoration: none;
 }
 .tel {
     /* +11 (000) 111-11-11 */
@@ -139,6 +140,7 @@ body {
         /* SLATE */
         color: #434455;
         list-style-type: none;
+        text-decoration: none;
 }
 .hero-image {
     position: absolute;
