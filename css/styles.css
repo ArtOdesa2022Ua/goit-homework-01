@@ -468,3 +468,6 @@ body {
         font-family: 'Raleway', sans-serif;
         text-decoration: none;
 }
+.list {
+    list-style: none;
+}
