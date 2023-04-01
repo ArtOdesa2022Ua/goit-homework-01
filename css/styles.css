@@ -1,6 +1,6 @@
 /* ----------------- Body START----------------- */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font);
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -12,9 +12,11 @@ body {
     color: var(--color-ocean);
 }
 .link:focus {
-    color: #404bbf;
+    color: var(--color-ocean);
 }
 :root {
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
     --color-iris: #4d5ae5;
 	--color-ocean: #404bbf;
 	--color-navy-blue: #2e2f42;
