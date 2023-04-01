@@ -54,7 +54,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--color-navy-blue);
+    color: var(--color-iris);
 }
 .logo:hover {
     color: var(--color-ocean);
