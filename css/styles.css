@@ -93,7 +93,7 @@ body {
     list-style-type: none; */
 }
 .link-studio {
-    color: #2e2f42;
+    color: var(--color-ocean);
 }
 .address {
     font-style: normal;
