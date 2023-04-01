@@ -5,8 +5,14 @@ body {
     background-color: #FFFFFF;
 }
 .link {
-    color: #4d5ae5;
+    color: var(--color-navy-blue-modal);
     text-decoration: none;
+}
+.link:hover {
+    color: var(--color-ocean);
+}
+.link:focus {
+    color: #404bbf;
 }
 :root {
     --color-iris: #4d5ae5;
@@ -86,15 +92,10 @@ body {
 .link-studio {
     color: #2e2f42;
 }
-.link:hover {
-    color: var(--color-ocean);
-}
-.link:focus {
-    color: #404bbf;
-}
 .address {
     font-style: normal;
     list-style-type: none;
+    color: var(--color-slate);
 }
 .list {
     list-style-type: none;
