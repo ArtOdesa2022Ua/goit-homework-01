@@ -38,19 +38,9 @@ body {
 
 /* ----------------- Header START ----------------- */
 .header {
-    position: absolute;
-    width: 1440px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
 }
 .logo {
-    /* position: absolute;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px; */
-    font-family: "Raleway", sans-serif;
+    font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -62,8 +52,6 @@ body {
     color: var(--color-ocean);
 }
 .logo-studio {
-    width: 71px;
-    height: 21px;
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
@@ -78,21 +66,13 @@ body {
     flex-grow: 0;
 }
 .list {
-    /* display: flex;
-    position: absolute;
-    /* width: 261px;
-    height: 24px;
-    left: 347px;
-    top: 24px;
-    gap: 40px; */
-    font-family: "Roboto", sans-serif;
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue-modal);
-    /* text-decoration: none;
-    list-style-type: none; */
+    list-style-type: none;
 }
 .link {
     color: var(--color-ocean);
@@ -102,16 +82,8 @@ body {
     list-style-type: none;
     color: var(--color-slate);
 }
-.list {
-    list-style-type: none;
-}
 .mail {
-    position: absolute;
-    width: 153px;
-    height: 24px;
-    left: 940px;
-    top: 24px;
-    font-family: 'Roboto';
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -122,12 +94,7 @@ body {
     text-decoration: none;
 }
 .tel {
-    position: absolute;
-    width: 151px;
-    height: 24px;
-    left: 1133px;
-    top: 24px;
-    font-family: 'Roboto';
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -142,22 +109,11 @@ body {
 
 /* ----------------- Hero image START ----------------- */
 .hero-image {
-    position: absolute;
-    width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 72px;
-    /* NAVY BLUE */
     background: #2E2F42;
     line-height: 1.07;
 }
 .hero {
-    position: absolute;
-    width: 496px;
-    height: 120px;
-    left: 472px;
-    top: 260px;
-    font-family: 'Roboto';
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -172,15 +128,10 @@ body {
     align-items: flex-start;
     padding: 16px 32px;
     gap: 10px;
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -196,10 +147,6 @@ body {
     /* text */
 }
 .section-one {
-    width: 1128px;
-    height: 104px;
-    left: 156px;
-    top: 792px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .strategy {
@@ -209,11 +156,6 @@ body {
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
-    position: absolute;
-    width: 264px;
-    height: 104px;
-    left: 156px;
-    top: 792px;
     background: #FFFFFF;
     border: 1px solid #000000;
 }
@@ -224,11 +166,6 @@ body {
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
-    position: absolute;
-    width: 264px;
-    height: 104px;
-    left: 444px;
-    top: 792px;
     background: #FFFFFF;
     border: 1px solid #000000;
 }
@@ -239,11 +176,6 @@ body {
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
-    position: absolute;
-    width: 264px;
-    height: 104px;
-    left: 732px;
-    top: 792px;
     background: #FFFFFF;
     border: 1px solid #000000;
 }
@@ -255,11 +187,6 @@ body {
         align-items: flex-start;
         padding: 0px;
         gap: 8px;
-        position: absolute;
-        width: 264px;
-        height: 104px;
-        left: 1020px;
-        top: 792px;
         background: #FFFFFF;
         border: 1px solid #000000;
 }
@@ -268,18 +195,9 @@ body {
 
 /* ----------------- section 2 START -----------------*/
 #portfolio {
-    width: 1128px;
-    height: 412px;
-    left: 156px;
-    top: 1016px;
 }
 .section-two {
-    position:absolute;
-    width: 323px;
-    height: 40px;
-    left: 559px;
-    top: 1016px;
-    font-family: 'Roboto';
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -290,10 +208,6 @@ body {
     color: #2E2F42;
 }
 .img-portfolio {
-    width: 1128px;
-    height: 412px;
-    left: 156px;
-    top: 1016px;
     list-style-type: none;
     display: inline-block;
 }
@@ -303,50 +217,27 @@ body {
     align-items: flex-start;
     padding: 0px;
     position: absolute;
-    width: 360px;
-    height: 300px;
-    left: 156px;
-    top: 1128px;
 }
 .img-link-two {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    position: absolute;
-    width: 360px;
-    height: 300px;
-    left: 540px;
-    top: 1128px;
 }
 .img-link-three {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    position: absolute;
-    width: 360px;
-    height: 300px;
-    left: 924px;
-    top: 1128px;
 }
 /* ----------------- section 2 END -----------------*/
 
 
 /* ----------------- section 3 START -----------------*/
 #contacts {
-    width: 1440px;
-    height: 732px;
-    left: 0px;
-    top: 1548px;
 }
 .section-three {
-    position: absolute;
-    width: 162px;
-    height: 40px;
-    left: 639px;
-    top: 1668px;
-    font-family: 'Roboto';
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -364,11 +255,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    position: absolute;
-    width: 264px;
-    height: 380px;
-    left: 156px;
-    top: 1780px;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -378,11 +264,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    position: absolute;
-    width: 264px;
-    height: 380px;
-    left: 444px;
-    top: 1780px;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -392,11 +273,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    position: absolute;
-    width: 264px;
-    height: 380px;
-    left: 732px;
-    top: 1780px;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -406,11 +282,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    position: absolute;
-    width: 264px;
-    height: 380px;
-    left: 1020px;
-    top: 1780px;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -420,11 +291,6 @@ body {
 
 /* ----------------- Footer START -----------------*/
 .footer {
-    position: absolute;
-    width: 1440px;
-    height: 312px;
-    left: 0px;
-    top: 2280px;
     background-color: #2E2F42;
 }
 .logo-footer {
@@ -432,17 +298,11 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 2380px;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--secondary-font);
     text-decoration: none;
 }
 .logo-studio-footer {
-    width: 71px;
-    height: 21px;
-    font-family: 'Raleway';
+    font-family: var(--secondary-font);
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -450,18 +310,13 @@ body {
     color: #F4F4FD;
 }
 .footer-text {
-    width: 264px;
-    height: 72px;
-    left: 156px;
-    top: 2420px;
-    font-family: 'Roboto';
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    font-family: 'Raleway', sans-serif;
     text-decoration: none;
 }
 /* ----------------- Footer END -----------------*/
