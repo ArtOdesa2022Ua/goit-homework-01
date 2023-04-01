@@ -334,3 +334,22 @@ body {
     text-decoration: none;
 }
 /* ----------------- Footer END -----------------*/
+
+.btn-all {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-iris);
+    background-color: var(--color-cloud);
+    cursor: pointer;
+}
+.btn-all:hover {
+    color: #FFFFFF;
+    background-color: #404bbf;
+}
+.btn-all:focus {
+    color: #FFFFFF;
+    background-color: #404bbf;
+}
