@@ -21,7 +21,7 @@ body {
     background-color: #FFFFFF;
 }
 .link {
-    color: var(--color-navy-blue-modal);
+    color: var(--color-iris);
     text-decoration: none;
 }
 .link:hover {
