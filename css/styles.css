@@ -1,3 +1,4 @@
+/* ----------------- Body START----------------- */
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -20,16 +21,16 @@ body {
 :focus {
     --color: #404bbf
 }
-/* Heder START */
+/* ----------------- Body END ----------------- */
+
+
+/* ----------------- Header START ----------------- */
 .header {
     position: absolute;
     width: 1440px;
     height: 72px;
     left: 0px;
     top: 0px;
-}
-.link {
-    text-decoration: none;
 }
 .logo {
     display: flex;
@@ -46,22 +47,10 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.list {
-    display: flex;
-    position: absolute;
-    width: 261px;
-    height: 24px;
-    left: 347px;
-    top: 24px;
-    gap: 40px;
-    font-family: 'Roboto', sans-serif;;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+.link {
     text-decoration: none;
-    list-style-type: none;
 }
-.logo-studio {  
+.logo-studio {
     width: 71px;
     height: 21px;
     font-family: 'Raleway';
@@ -78,18 +67,21 @@ body {
     order: 1;
     flex-grow: 0;
 }
-/* Heder END*/
-
-/* section 1 START*/
-#studio {
+.list {
+    display: flex;
     position: absolute;
-    width: 1128px;
-    height: 104px;
-    left: 156px;
-    top: auto;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 261px;
+    height: 24px;
+    left: 347px;
+    top: 24px;
+    gap: 40px;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    list-style-type: none;
 }
-
 .address {
     list-style-type: none;
 }
@@ -97,7 +89,7 @@ body {
     list-style-type: none;
 }
 .mail {
-    /* info@devstudio.com */   
+    /* info@devstudio.com */
     position: absolute;
     width: 153px;
     height: 24px;
@@ -136,6 +128,10 @@ body {
     list-style-type: none;
     text-decoration: none;
 }
+/* ----------------- Heder END -----------------*/
+
+
+/* ----------------- Hero image START ----------------- */
 .hero-image {
     position: absolute;
     width: 1440px;
@@ -143,7 +139,7 @@ body {
     left: 0px;
     top: 72px;
     /* NAVY BLUE */
-    /* background: #2E2F42; */
+    background: #2E2F42;
     line-height: 1.07;
 }
 .hero {
@@ -152,21 +148,16 @@ body {
     height: 120px;
     left: 472px;
     top: 260px;
-    /* Header 1 */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
-    /* or 107% */
     text-align: center;
     letter-spacing: 0.02em;
-    /* WHITE */
     color: #FFFFFF;
 }
 .btn {
-    /* Button */   
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -177,7 +168,6 @@ body {
     height: 56px;
     left: 636px;
     top: 428px;
-    /* IRIS */
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -190,53 +180,64 @@ body {
     color: #ffffff;
     background-color: #404BBF;
 }
+/* ----------------- Hero image END ----------------- */
+
+
+/* ----------------- section 1 START -----------------*/
+#studio {
+    /* text */
+}
+.section-one {
+    width: 1128px;
+    height: 104px;
+    left: 156px;
+    top: 792px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 .strategy {
     box-sizing: border-box;
-        /* Auto layout */
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 8px;
-        position: absolute;
-        width: 264px;
-        height: 104px;
-        left: 156px;
-        top: 792px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 264px;
+    height: 104px;
+    left: 156px;
+    top: 792px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
 }
 .punctuality {
     box-sizing: border-box;
-        /* Auto layout */
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 8px;
-        position: absolute;
-        width: 264px;
-        height: 104px;
-        left: 444px;
-        top: 792px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 264px;
+    height: 104px;
+    left: 444px;
+    top: 792px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
 }
 .diligence {
     box-sizing: border-box;
-        /* Auto layout */
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 8px;
-        position: absolute;
-        width: 264px;
-        height: 104px;
-        left: 732px;
-        top: 792px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 264px;
+    height: 104px;
+    left: 732px;
+    top: 792px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
 }
 .technologies {
     box-sizing: border-box;
@@ -254,34 +255,33 @@ body {
         background: #FFFFFF;
         border: 1px solid #000000;
 }
-.portfolio-list {
-    position: absolute;
+/* ----------------- section 1 END -----------------*/
+
+
+/* ----------------- section 2 START -----------------*/
+#portfolio {
     width: 1128px;
     height: 412px;
     left: 156px;
     top: 1016px;
 }
-.section-three {
-    position: absolute;
-        width: 323px;
-        height: 40px;
-        left: 559px;
-        top: 1016px;
-        /* Header 2 */
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 40px;
-        /* identical to box height, or 111% */
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        /* NAVY BLUE */
-        color: #2E2F42;
+.section-two {
+    position:absolute;
+    width: 323px;
+    height: 40px;
+    left: 559px;
+    top: 1016px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
 .img-portfolio {
-    position: absolute;
     width: 1128px;
     height: 412px;
     left: 156px;
@@ -291,165 +291,169 @@ body {
 }
 .img-link-one {
     display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        position: absolute;
-        width: 360px;
-        height: 300px;
-        left: 156px;
-        top: 1128px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 360px;
+    height: 300px;
+    left: 156px;
+    top: 1128px;
 }
 .img-link-two {
-    /* Auto layout */
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        position: absolute;
-        width: 360px;
-        height: 300px;
-        left: 540px;
-        top: 1128px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 360px;
+    height: 300px;
+    left: 540px;
+    top: 1128px;
 }
 .img-link-three {
-    /* Auto layout */
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        position: absolute;
-        width: 360px;
-        height: 300px;
-        left: 924px;
-        top: 1128px;
-}
-.section-four {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
     position: absolute;
-        width: 162px;
-        height: 40px;
-        left: 639px;
-        top: 1668px;
-        /* Header 2 */
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 40px;
-        /* identical to box height, or 111% */
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        /* NAVY BLUE */
-        color: #2E2F42;
+    width: 360px;
+    height: 300px;
+    left: 924px;
+    top: 1128px;
+}
+/* ----------------- section 2 END -----------------*/
+
+
+/* ----------------- section 3 START -----------------*/
+#contacts {
+    width: 1440px;
+    height: 732px;
+    left: 0px;
+    top: 1548px;
+}
+.section-three {
+    position: absolute;
+    width: 162px;
+    height: 40px;
+    left: 639px;
+    top: 1668px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+.img-contacts-all {
+    list-style-type: none;
 }
 .img-contacts-mark {
-    /* Auto layout */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0px 0px 32px;
-        gap: 32px;
-        position: absolute;
-        width: 264px;
-        height: 380px;
-        left: 156px;
-        top: 1780px;
-        /* WHITE
-    Header background, team card background
-    */
-        background: #FFFFFF;
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-        border-radius: 0px 0px 4px 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 156px;
+    top: 1780px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 .img-contacts-tom {
-    display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0px 0px 32px;
-        gap: 32px;
-        position: absolute;
-        width: 264px;
-        height: 380px;
-        left: 444px;
-        top: 1780px;
-        background: #FFFFFF;
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-        border-radius: 0px 0px 4px 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 444px;
+    top: 1780px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 .img-contacts-camila {
-    display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0px 0px 32px;
-        gap: 32px;
-        position: absolute;
-        width: 264px;
-        height: 380px;
-        left: 732px;
-        top: 1780px;
-        background: #FFFFFF;
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-        border-radius: 0px 0px 4px 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 732px;
+    top: 1780px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 .img-contacts-daniel {
-    display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0px 0px 32px;
-        gap: 32px;
-        position: absolute;
-        width: 264px;
-        height: 380px;
-        left: 1020px;
-        top: 1780px;
-        background: #FFFFFF;
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-        border-radius: 0px 0px 4px 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 1020px;
+    top: 1780px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
+/* ----------------- section 3 END -----------------*/
+
+
+/* ----------------- Footer START -----------------*/
 .footer {
     position: absolute;
-        width: 1440px;
-        height: 312px;
-        left: 0px;
-        top: 2280px;
+    width: 1440px;
+    height: 312px;
+    left: 0px;
+    top: 2280px;
+    background-color: #2E2F42;
 }
 .logo-footer {
     display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 0px;
-        position: absolute;
-        width: 115px;
-        height: 24px;
-        left: 156px;
-        top: 2380px;
-        font-family: 'Raleway', sans-serif;
-        text-decoration: none;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 2380px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+.logo-studio-footer {
+    width: 71px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F4F4FD;
 }
 .footer-text {
-    position: absolute;
-        width: 264px;
-        height: 72px;
-        left: 156px;
-        top: 2420px;
-        /* Body */
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        /* or 150% */
-        letter-spacing: 0.02em;
-        /* CLOUD */
-        color: #F4F4FD;
-        font-family: 'Raleway', sans-serif;
-        text-decoration: none;
+    width: 264px;
+    height: 72px;
+    left: 156px;
+    top: 2420px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
 }
-.list {
-    list-style: none;
-}
+/* ----------------- Footer END -----------------*/
