@@ -41,7 +41,7 @@ body {
     height: 24px;
     left: 156px;
     top: 24px; */
-    color: #4D5AE5;
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -76,7 +76,7 @@ body {
     left: 347px;
     top: 24px;
     gap: 40px; */
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -85,10 +85,20 @@ body {
     /* text-decoration: none;
     list-style-type: none; */
 }
+.link-studio {
+    color: #2e2f42;
+}
+.link-studio:hover {
+    color: #404bbf;
+}
+.link-studio:focus {
+    color: #404bbf;
+}
 .address {
+    font-style: normal;
     list-style-type: none;
 }
-.mail-tel {
+.list {
     list-style-type: none;
 }
 .mail {
@@ -150,7 +160,7 @@ body {
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    line-height: 1.07;
 }
 .btn {
     display: flex;
@@ -163,7 +173,6 @@ body {
     height: 56px;
     left: 636px;
     top: 428px;
-    background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
@@ -173,7 +182,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    background-color: #404BBF;
+    background-color: #4D5AE5;
 }
 /* ----------------- Hero image END ----------------- */
 
