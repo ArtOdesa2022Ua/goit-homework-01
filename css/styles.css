@@ -213,8 +213,9 @@ body {
 .section-two {
     font-family: var(--primary-font);
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-grey);
 }
@@ -246,12 +247,15 @@ body {
 /* ----------------- section 3 START -----------------*/
 #contacts {
 }
+.cont {
+    background-color: #F4F4FD;
+}
 .section-three {
     font-family: var(--primary-font);
     font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
