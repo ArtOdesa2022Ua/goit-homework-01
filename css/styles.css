@@ -33,6 +33,17 @@ body {
 :focus {
     --color: #404bbf
 }
+.list {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--color-navy-blue-modal);
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+}
 /* ----------------- Body END ----------------- */
 
 
@@ -88,17 +99,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
-}
-.list {
-    font-family: var(--primary-font);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--color-navy-blue-modal);
-    list-style-type: none;
-    list-style: none;
-    text-decoration: none;
 }
 .address {
     font-style: normal;
